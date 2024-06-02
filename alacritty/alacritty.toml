@@ -1,0 +1,9 @@
+[window]
+padding.x = 10
+padding.y = 10
+
+opacity = 0.8
+decorations = "Buttonless"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"

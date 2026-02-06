@@ -1,0 +1,37 @@
+// Minimal Zellij Configuration
+
+// UI Settings
+simplified_ui true
+pane_frames false
+default_layout "tabs-up"
+
+
+// Theme with simple colors matching Neovim defaults
+theme "minimal"
+
+themes {
+    minimal {
+        fg "#d0d0d0"
+        bg "#1e1e1e"
+        black "#3b4252"
+        red "#bf616a"
+        green "#a3be8c"
+        yellow "#ebcb8b"
+        blue "#81a1c1"
+        magenta "#b48ead"
+        cyan "#88c0d0"
+        white "#e5e9f0"
+        orange "#d08770"
+    }
+}
+
+// UI Components
+ui {
+    pane_frames {
+        rounded_corners false
+        hide_session_name true
+    }
+}
+
+// Minimal status bar at bottom
+copy_on_select false
